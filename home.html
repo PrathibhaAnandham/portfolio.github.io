@@ -1,1 +1,203 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a25b93968e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://bvrithyderabad.edu.in/wp-content/uploads/2023/07/bvrit-hyderabad-engineering-women-college-logo-2.jpg" class="logo" width="100px" height="60px">
+                <ul id="sidemenu">
+                    <li><a href="#header" >Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi,I am <span>Prathibha</span><br></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1_Ed9KrGKxqAKcW_d2fuwc0SX-aDCdtlbhQ&s";>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m Prathibha, a third-year student passionate about front-end development and programming. I’m currently working on a placement website for my college while actively learning Java and data structures to enhance my problem-solving abilities. I’m always eager to expand my skills and take on new challenges as I continue to grow as a developer.</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link"onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links"onclick="opentab('certifications')">Certifications</div>
+                        <div class="tab-links"onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web Pages</dr></li>
+                            <li><span>Android</span><br>Android App Developer</dr></li>
+                            <li><span>Java</span><br>DSA</dr></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Android App</span><br>Mobile-Application-Development</dr></li>
+                            <li><span>Hackerrank</span><br>SQL(Basic)</dr></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B-Tech</span><br>Computer Science and Engineering <br>GPA : 8.93</li>
+                            <li><span>Intermediate</span><br>Dr.BR Ambedkar(TSWRIES) <br>Percentage : 97.4%</li>
+                            <li><span>SSC</span><br>ZPHS Kamanchikal<br>GPA : 10</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I create responsive and visually appealing websites, focusing on front-end development to ensure a great user experience.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fas fa-laptop-code"></i>
+                    <h2>Programming</h2>
+                    <p>I specialize in Java and data structures and algorithms (DSA) to build efficient and effective software solutions.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fas fa-mobile-alt"></i>
+                    <h2>App Design</h2>
+                    <p>I design user-friendly mobile apps that offer a smooth and intuitive experience for all users.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----portfolio----- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/mobileapp_LE_auto_x2.jpg" width="70px" height="700px">
+                    <div class="layer">
+                        <h3>Personal Finance Tracker App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, harum?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2023/8/337487292/ST/JB/TD/189620676/oneplus-nord-ce-3-5g-500x500.jpg">
+                    <div class="layer">
+                        <h3>Scientific-Calculator using python</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, harum?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2023/8/337487292/ST/JB/TD/189620676/oneplus-nord-ce-3-5g-500x500.jpg">
+                    <div class="layer">
+                        <h3></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, harum?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----contact------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>22wh1a05b8@bvrithyderabad.edu.in</p>
+                    <p><i class="fas fa-phone-square-alt"></i>8688545452</p>
+                    <div class="social-icons">
+                        
+                        <a href="https://www.instagram.com/prathibha____07?utm_source=qr&igsh=MXRjc3BvMTJzcG40MA=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/prathibha-aanandam-283318259"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="/Users/anandamsusmitha/Downloads/Minimalist\ Modern\ Professional\ CV\ Resume\ \(1\).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Meassage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright Prathibha</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemen=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemen.style.right="0";
+        }
+        function closemenu(){
+            sidemen.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyeOPuFBnNuoESGTD0jesg2L9jGZJjVUa5W0pzcH1HGTfl2SozU4Jev-PES3bZ3on7k/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
+
